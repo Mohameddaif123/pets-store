@@ -106,6 +106,15 @@ Admin Credentials:
 Username: hadi
 Password: 123
 Admin/superuser will see more buttons and will be able to perform actions like updating, removing, and adding new products that other users cannot do.
+<<<<<<< HEAD
+=======
+
+License
+This project is licensed under the MIT License. Feel free to modify and distribute the code for your own purposes.
+
+
+admin/ superuser will see more buttons and will  be able to make more actions like updating ,removing and adding new products that the othe users cant do.
+>>>>>>> 4d679ee03b2e6967e42b47ef144a2e045c0af88e
 
 License
 This project is licensed under the MIT License. Feel free to modify and distribute the code for your own purposes.
