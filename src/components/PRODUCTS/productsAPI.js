@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-const MY_SERVER = "https://cat-and-dog-store.onrender.com
-
-";
+const MY_SERVER = "https://cat-and-dog-store.onrender.com/products";
 
 export function getProds() {
     return axios.get(MY_SERVER);
