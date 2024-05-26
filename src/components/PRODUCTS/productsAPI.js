@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const MY_SERVER = "http://127.0.0.1:8000/products";
+const MY_SERVER = "https://cat-and-dog-store.onrender.com
+
+";
 
 export function getProds() {
     return axios.get(MY_SERVER);
