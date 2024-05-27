@@ -66,7 +66,7 @@ const Checkout = ({ cartItems }) => {
     const handleSubmitReview = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/submit_review/', { rating, comment });
+            const response = await axios.post('https://cat-and-dog-store.onrender.com/api/submit_review/', { rating, comment });
             toast.success(response.data.message);
             setRating(0);
             setComment("");
